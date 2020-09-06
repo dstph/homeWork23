@@ -2,7 +2,6 @@
 	display: inline-block;
 }
 .slider{
-	height: 300px;
 	border: 2px solid black;
 	width: 20px;
 	margin-left: auto;
@@ -28,5 +27,12 @@
 }
 .violet{
 	background-color: violet;
+}
+#app{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 /*# sourceMappingURL=index.css.map */
